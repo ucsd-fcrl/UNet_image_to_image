@@ -11,7 +11,7 @@ You can also easily modify the pipeline to output the categorical results (e.g. 
 
 Files:<br />
 - ```CNN.py```: Architecture of UNet<br />
-- ```Generator.py```: Datagenerator, use class inherited from tensorflow.keras.utils.Sequence<br />
+- ```Generator.py```: Datagenerator, use class inherited from tensorflow.keras.utils.Sequence. Note: no data augmentation included.<br />
 - ```set_defaults.sh``` and ```Defaults.py```: Preset parameters for the experiment<br />
 - ```Data_processing.py```: image processing to adapt for the model<br />
 - ```Build_list.py```: generate input and output file list<br />
