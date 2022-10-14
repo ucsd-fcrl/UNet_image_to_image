@@ -21,3 +21,5 @@ To run this repo:<br />
 - step 1: run ```. ./set_defaults.sh```<br />
 - step 2: run ```python main_train.py```<br />
 - step 3: run ```python main_predict.py```<br />
+
+If you have any question, feel free to contact me @ chenzhennong@gmail.com or zchen36@mgh.harvard.edu
