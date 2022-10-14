@@ -1,7 +1,9 @@
 # UNet_image_to_image
 **Author: Zhennong Chen, PhD**<br />
 
-This repo builds a simple U-Net, which takes a CT image (e.g., motion-corrupted image) as the input and outputs another CT  image (e.g., motion-free image). The whole pipeline (training and prediction) is written for 2D CT images (only takes 2D CT slices as the input), but the U-Net (CNN.py) is written for both 2D and 3D inputs, and you can easily modify the pipeline script for 3D.
+This repo builds a simple U-Net, which takes a CT image (e.g., motion-corrupted image) as the input and outputs another CT  image (e.g., motion-free image). 
+
+The whole pipeline (training and prediction),especially the ```Generator.py``` is written for 2D CT images (only takes 2D CT slices as the input), but the U-Net (```CNN.py```) is written for both 2D and 3D inputs, and you can easily modify the pipeline script for 3D.
 
 You can also easily modify the pipeline to output the categorical results (e.g. segmentation).
 
