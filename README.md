@@ -7,7 +7,7 @@ The whole pipeline (training and prediction),especially the ```Generator.py``` i
 
 You can also easily modify the pipeline to output the categorical results (e.g. segmentation).
 
-**This repo is compatible with tensorflow-gpu 2.4.1 and cuda 11.0.3.**
+**This repo is compatible with tensorflow-gpu 2.4.1 and cuda 11.0.3.** The docker environment can be built by files in folder ```docker```; all the required python package can be found in ```docker/requirements.txt``` and ```docker/dockerfile```.
 
 Files:<br />
 - ```CNN.py```: Architecture of UNet<br />

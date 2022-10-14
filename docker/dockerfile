@@ -19,7 +19,7 @@ RUN python3 -m pip install --no-cache-dir -r /env/requirements.txt
 
 # GitHub installations:
 RUN python3 -m pip install git+https://github.com/zhennongchen/CTProjector.git
-RUN python3 -m pip install git+https://github.com/zhennongchen/dvpy.git#egg=dvpy
+# RUN python3 -m pip install git+https://github.com/zhennongchen/dvpy.git#egg=dvpy
 
 COPY entrypoint.sh /env/entrypoint.sh
 RUN chmod +x /env/entrypoint.sh
